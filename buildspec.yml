@@ -3,10 +3,11 @@ version: 0.2
 
 env:
   variables:
-    AWS_REGION: "ap-southeast-2"
+    AWS_REGION: "us-east-1"
     IMAGE_NAME: "vproject"
-    ECR_DOMAIN: "580420849247.dkr.ecr.ap-southeast-2.amazonaws.com"
-    ECR_REPO: "580420849247.dkr.ecr.ap-southeast-2.amazonaws.com/vproject"
+    ECR_DOMAIN: "580420849247.dkr.ecr.us-east-1.amazonaws.com"
+    580420849247.dkr.ecr.us-east-1.amazonaws.com/vproject
+    ECR_REPO: "580420849247.dkr.ecr.us-east-1.amazonaws.com/vproject"
     DOCKERHUB_USERNAME: "habibqayoom6"
     DOCKERHUB_PASSWORD: "dckr_pat_KGwOT_G6WC5hT5uI-AJxN0PcUng"
 
