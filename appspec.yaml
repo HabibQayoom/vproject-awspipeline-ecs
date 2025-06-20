@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "ratemycampus-task2"
+        TaskDefinition: "arn:aws:ecs:us-east-1:580420849247:task-definition/vproject-task:2"
         LoadBalancerInfo:
           ContainerName: "app"
           ContainerPort: 8080
