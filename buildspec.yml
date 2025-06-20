@@ -3,12 +3,12 @@ version: 0.2
 
 env:
   variables:
-    AWS_REGION: "us-east-1"
-    IMAGE_NAME: "vproject"
-    ECR_DOMAIN: "580420849247.dkr.ecr.us-east-1.amazonaws.com"
-    ECR_REPO: "580420849247.dkr.ecr.us-east-1.amazonaws.com/vproject"
-    DOCKERHUB_USERNAME: "habibqayoom6"
-    DOCKERHUB_PASSWORD: "dckr_pat_KGwOT_G6WC5hT5uI-AJxN0PcUng"
+    AWS_REGION: "us-xxxx-1"
+    IMAGE_NAME: "xx"
+    ECR_DOMAIN: "xxxxx.dkr.ecr.us-xxx-1.amazonaws.com"
+    ECR_REPO: "xxx.dkr.ecr.us-xxxx-1.amazonaws.com/xxxxx"
+    DOCKERHUB_USERNAME: "xxxx"
+    DOCKERHUB_PASSWORD: "xxxx-xxxx"
 
 phases:
   pre_build:
